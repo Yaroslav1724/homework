@@ -1,0 +1,32 @@
+.content {
+    background-color: brown;
+    margin: 50px auto;
+    padding-left: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content1 {
+    background-color:silver;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    height: 50px;
+}
+.content2 {
+    background-color: blue;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.content3 {
+    background-color: darkgreen;
+    width: 150px;
+    height: 150px;
+}
+.content4 {
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
