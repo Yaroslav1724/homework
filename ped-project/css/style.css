@@ -10,7 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+.nav_menu_item{
+    padding-right: 24px;
 }
 .nav_menu{
     display: flex;
@@ -35,10 +37,14 @@
     margin-right: 24px;
 }
 .menu_button{
-    margin-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
     height: 54px;
+    background: #0B2330;
+    border: 1px solid #0B2330;
+    box-sizing: border-box;
     border-radius: 4px;
-    background: #181717;
     width: 163px;
 }
 .header_logo{
@@ -46,15 +52,6 @@
 .text{
     font-size: 12px;
     line-height: 16px;
-
-}
-.btn{
-    color: floralwhite;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    place-content: space-evenly;
-   
 }
 a{
     color: #0B2330;
@@ -74,7 +71,6 @@ a{
 position: absolute;
     margin-top: 172px;
     margin-left: -130px;
-
 }
 .btn_tx{
     margin: 0 auto;
@@ -453,7 +449,6 @@ h1{
 }
 .icon{
     margin-top: 160px;
-    margin-right: -72px;
 }
 .box1_1{
     width: 562px;
@@ -493,7 +488,6 @@ h1{
     line-height: 28px;
     margin-top: 27px;
     color: #0B2330;
-
 }
 .read{
     width: 140px;
@@ -571,7 +565,6 @@ h1{
 .box2_2{
     height: 678px;
     background: #0B2330;
-
 }
 .line{
     margin-left: 32px;
@@ -616,5 +609,4 @@ h1{
     position: absolute;
     bottom: 0px;
     border-radius: 0px;
-
 }
