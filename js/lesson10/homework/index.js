@@ -43,28 +43,28 @@
    // Вивести список коментарів у документ, кожен у своєму блоці.
    //  Додайте кожному коментарю за кнопкою для згортання його body.
    //
-   // let comment = [
-   //     {name: 'max', body: 'йдемо на футбол'},
-   //     {name: 'ivan', body: 'йдемо на теніс'},
-   //     {name: 'taras', body: 'йдемо на регбі'},
-   // ]
-   // let divarr = document.createElement('div');
-   // for (let item of comment) {
-   // let div = document.createElement('div');
-   //  let h3 = document.createElement('h3');
-   //  let p = document.createElement('p');
-   //  let button = document.createElement('button')
-   //
-   //     h3.innerText = item.name;
-   //     p.innerHTML = item.body;
-   //     button.innerHTML = 'Закрити'
-   //     button.onclick = () => {
-   //                 p.classList.add('pHidden');
-   //                 button.previousElementSibling.classList.add('pHidden');  // 2варінт який звертаєтсья до ПОПЕРЕДНЬОГО елементу перед btn
-   //             }
-   //     div.append(h3, p, button);
-   //     divarr.append(div);
-   //
-   // }
-   // document.body.appendChild(divarr)
+   let comment = [
+       {name: 'max', body: 'йдемо на футбол'},
+       {name: 'ivan', body: 'йдемо на теніс'},
+       {name: 'taras', body: 'йдемо на регбі'},
+   ]
+   let divarr = document.createElement('div');
+   for (let item of comment) {
+   let div = document.createElement('div');
+    let h3 = document.createElement('h3');
+    let p = document.createElement('p');
+    let button = document.createElement('button')
+
+       h3.innerText = item.name;
+       p.innerHTML = item.body;
+       button.innerHTML = 'Закрити'
+       button.onclick = () => {
+                   p.classList.add('pHidden');
+                   button.previousElementSibling.classList.add('pHidden');  // 2варінт який звертаєтсья до ПОПЕРЕДНЬОГО елементу перед btn
+               }
+       div.append(h3, p, button);
+       divarr.append(div);
+
+   }
+   document.body.appendChild(divarr)
 
