@@ -11,7 +11,7 @@
    // let ul = document.getElementsByTagName('ul')
    // ul[0].style.width = '400px';
    // console.log(ul)
-   //
+
    // Завдання 3 c) робить шириниу всіх елементів з класом linkList шириною 50%
    //
    // let link = document.getElementsByClassName('linkList');
