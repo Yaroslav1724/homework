@@ -27,7 +27,7 @@
                   .then(response => response.json())
                   .then(comments => {
                       for (const comment of comments) {
-                          if (post.id === comment.postid) {
+                          if (post.id === comment.id) {
                               let divCardComments = document.createElement('div')
                               divCardComments.classList.add('cardComments')
                               divCardComments.innerHTML = `
