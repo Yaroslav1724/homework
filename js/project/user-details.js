@@ -10,7 +10,7 @@ console.log(user)
 let userDetailsContainer = document.getElementsByClassName('user-details')[0];
 let postsContainer = document.getElementsByClassName('posts')[0];
 let postsDetailsButton = document.getElementsByClassName('postsDetailsButton')[0];
-userDetailsContainer.innerText = `${JSON.stringify()}`;
+userDetailsContainer.innerText = `${JSON.stringify(user)}`;
 
 postsDetailsButton.onclick = function () {
     this.disabled = true
